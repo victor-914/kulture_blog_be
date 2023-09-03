@@ -6,7 +6,7 @@
   "main":"index.js",
   "scripts": {
     "develop": "strapi develop",
-    "start": "node  build/index.js",
+    "start": "node  ./build/index.js",
     "build": "strapi build",
     "strapi": "strapi"
    
