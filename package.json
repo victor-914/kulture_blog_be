@@ -6,7 +6,7 @@
   "main":"index.js",
   "scripts": {
     "develop": "strapi develop",
-    "start": " export PORT=3000 && node  dist/index.js",
+    "start": "node  dist/index.js",
     "build": "strapi build",
     "strapi": "strapi"
    
