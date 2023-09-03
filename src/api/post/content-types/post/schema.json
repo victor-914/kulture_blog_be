@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "post_title": {
+      "type": "string"
+    },
+    "post_content": {
+      "type": "richtext"
+    },
+    "post_catergory": {
+      "type": "enumeration",
+      "enum": [
+        "cultural events and exhibitions",
+        "religious practices",
+        "traditional clothing and fashion",
+        "mythology and folkore",
+        "history and heritage",
+        "traditional cuisine",
+        "art and creativity "
+      ]
+    },
+    "post_slug": {
+      "type": "uid",
+      "targetField": "post_title"
+    },
+    "post_banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "post_date": {
+      "type": "date"
+    }
+  }
+}

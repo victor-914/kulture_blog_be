@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videos",
+  "info": {
+    "singularName": "video",
+    "pluralName": "videos",
+    "displayName": "video",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "video_description": {
+      "type": "richtext"
+    },
+    "video_iframe_link": {
+      "type": "string"
+    },
+    "video_meta_data": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "video_banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "video_catergories": {
+      "type": "enumeration",
+      "enum": [
+        "cultural events and exhibitions",
+        "religious practices",
+        "traditional clothing and fashion",
+        "mythology and folkore",
+        "history and heritage",
+        "traditional cuisine",
+        "art and creativity"
+      ]
+    }
+  }
+}
