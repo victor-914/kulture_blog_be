@@ -3,12 +3,13 @@
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
+  "main":"server.js",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "main":"/server.js"
+    "strapi": "strapi"
+   
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.13.1",
