@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkulture_blog_be=self.webpackChunkkulture_blog_be||[]).push([[4299],{1880:(r,t,e)=>{e.r(t),e.d(t,{default:()=>P});var _=e(67294),E=e(57993),s=e(86706),n=e(36364),l=e(92458);const P=()=>{const o=(0,s.v9)(n._);return _.createElement(E.O4,{permissions:o.settings["api-tokens"].create},_.createElement(l.Z,null))}}}]);
